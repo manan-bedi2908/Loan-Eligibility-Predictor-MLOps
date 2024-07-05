@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from prediction_model.config import config
 from prediction_model.processing.data_handling import load_dataset, save_pipeline
-from prediction_model.processing import preprocessing as pp
+import prediction_model.processing.preprocessing as pp
 import prediction_model.pipeline as pipe
 
 def perform_training():
