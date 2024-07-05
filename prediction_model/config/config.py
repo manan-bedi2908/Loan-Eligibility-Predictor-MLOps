@@ -16,7 +16,7 @@ TARGET = 'Loan_Status'
 
 FEATURES = ['Gender', 'Married', 'Dependents', 'Education', 'Self_Employed','
             'ApplicantIncome', 'LoanAmount', 'Loan_Amount_Term',
-            'Credit_History', 'Property_Area']
+            'Credit_History', 'Property_Area', 'CoApplicantIncome']
 
 NUM_FEATURES = ['ApplicantIncome', 'LoanAmount', 'Loan_Amount_Term']
 
