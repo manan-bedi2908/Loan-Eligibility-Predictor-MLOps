@@ -1,0 +1,4 @@
+__pycache__/
+config/__pycache__/
+processing/__pycache__/
+prediction_model/trained_models/classification.pkl
