@@ -3,6 +3,8 @@ import numpy as np
 from pathlib import Path
 import os
 import sys
+import warnings
+warnings.filterwarnings("ignore")
 
 PACKAGE_ROOT = Path(os.path.abspath(os.path.dirname(__file__))).parent
 sys.path.append(str(PACKAGE_ROOT))

@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import joblib
 from prediction_model.config import config
+import warnings
+warnings.filterwarnings("ignore")
 
 # Load Dataset
 def load_dataset(file_name):
